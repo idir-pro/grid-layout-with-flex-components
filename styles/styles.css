@@ -29,20 +29,40 @@ body {
   font-size: 4rem;
 }
 
-/********** Flexbox **********/
+                        /********** Flexbox **********/
 
 .emoji {
 display: flex;
     /**** I used flex here to organize the content in each card  *********/
 
-flex-direction: column;
+  flex-direction: column;
     /***********   I used column to put the content from top to bottom. *****/
 }
 
 .icon {
-    order: -1;
+        order: -1;
     /************ I used order to put the emoji before the title. */
 
     text-align: center;
     /******** I used text-align to put the emoji in the center. */
+}
+
+                    /****************** Grid **********/
+
+.emojis {
+          display: grid;
+  /* I used grid here to organize the emoji cards. ******/
+
+     grid-template-columns: 1fr 1fr;
+  /********** I used two columns for the cards. */
+
+  gap: 1rem;
+  /********* I used gap to add space between the cards. */
+}
+
+
+                                    /********** Button *****************/
+
+     .emoji a {
+       margin-top: auto;
 }
