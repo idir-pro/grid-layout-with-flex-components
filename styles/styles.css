@@ -28,4 +28,13 @@ body {
 .icon {
   font-size: 4rem;
 }
-```
+
+/********** Flexbox **********/
+
+.emoji {
+display: flex;
+    /**** I used flex here to organize the content in each card  *********/
+
+flex-direction: column;
+    /***********   I used column to put the content from top to bottom. *****/
+}
