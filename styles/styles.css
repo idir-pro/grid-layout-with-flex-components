@@ -38,3 +38,11 @@ display: flex;
 flex-direction: column;
     /***********   I used column to put the content from top to bottom. *****/
 }
+
+.icon {
+    order: -1;
+    /************ I used order to put the emoji before the title. */
+
+    text-align: center;
+    /******** I used text-align to put the emoji in the center. */
+}
